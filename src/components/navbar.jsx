@@ -86,20 +86,20 @@ const Navbar = () => {
             </div>
             {/*SOCIAL*/}
             <div className='hidden md:flex gap-4 lg:flex w-1/3'>
-                <Link href='/'>
-                    <Image src='/github.png' width={24} height={24} />
+                <Link href='https://github.com/L3ZI'>
+                    <Image src='/github.png' width={24} height={24} alt='test'/>
                 </Link>
-                <Link href='/'>
-                    <Image src='/dribble.png' width={24} height={24} />
+                {/*<Link href='/'>*/}
+                {/*    <Image src='/dribble.png' width={24} height={24} />*/}
+                {/*</Link>*/}
+                <Link href='https://www.instagram.com/mr.frozen__fire/?hl=en'>
+                    <Image src='/instagram.png' width={24} height={24}  alt='test'/>
                 </Link>
-                <Link href='/'>
-                    <Image src='/instagram.png' width={24} height={24} />
+                <Link href='https://web.facebook.com/profile.php?id=100009194440601' >
+                    <Image src='/facebook.png' width={24} height={24} alt='test' />
                 </Link>
-                <Link href='/'>
-                    <Image src='/facebook.png' width={24} height={24} />
-                </Link>
-                <Link href='/'>
-                    <Image src='/linkedin.png' width={24} height={24} />
+                <Link href='https://www.linkedin.com/in/pasan-perera99/' >
+                    <Image src='/linkedin.png' width={24} height={24}  alt='test'/>
                 </Link>
             </div>
             {/*RESPONSIVE MENU*/}

@@ -10,7 +10,7 @@ const items = [
         color: "from-blue-300 to-violet-300",
         title: "Kioptrix Level 1",
         desc: "Kioptrix is a entry level ctf, and it's focused on SMB exploitation and get the hidden key.",
-        img: "/portfolio1.jpeg",
+        img: "/portfolio1.jpeg", alt: "test",
         link: "https://www.linkedin.com/posts/pasan-perera99_ctf-activity-6898817222614118400-6GWl?utm_source=combined_share_message&utm_medium=member_desktop",
     },
     {
@@ -18,7 +18,7 @@ const items = [
         color: "from-blue-300 to-violet-300",
         title: "PortSwigger Labs",
         desc: "PortSwigger is a leading provider of cybersecurity tools, a comprehensive platform for web application security testing.",
-        img: "/portfolio2.jpeg",
+        img: "/portfolio2.jpeg", alt: "test",
         link: "https://www.linkedin.com/posts/pasan-perera99_portswigger-websecurity-activity-6990678889710694400-aplK?utm_source=combined_share_message&utm_medium=member_desktop",
     },
     {
@@ -26,7 +26,7 @@ const items = [
         color: "from-blue-300 to-violet-300",
         title: "Password Generator",
         desc: "Password Generator in Flutter provides a user-friendly interface to create strong, random passwords, enhancing security for applications.",
-        img: "/portfolio3.jpeg",
+        img: "/portfolio3.jpeg", alt: "test",
         link: "https://www.linkedin.com/posts/pasan-perera99_coding-flutter-activity-7045092149083705344-UTNW?utm_source=combined_share_message&utm_medium=member_desktop",
     },
     {
@@ -34,7 +34,7 @@ const items = [
         color: "from-blue-300 to-violet-300",
         title: "User Login",
         desc: "A user login and registration feature in Flutter with Firebase enables seamless authentication and secure account management for mobile applications.",
-        img: "/portfolio4.jpeg",
+        img: "/portfolio4.jpeg", alt: "test",
         link: "https://www.linkedin.com/posts/pasan-perera99_flutter-google-firebase-activity-7023190357471358977-Y2NJ?utm_source=combined_share_message&utm_medium=member_desktop",
     },
     {
@@ -42,7 +42,7 @@ const items = [
         color: "from-blue-300 to-violet-300",
         title: "ToDo App",
         desc: "A todo list feature in Flutter using Hive database provides efficient local data storage and management for organizing tasks seamlessly within mobile applications.",
-        img: "/portfolio5.jpeg",
+        img: "/portfolio5.jpeg", alt: "test",
         link: "https://www.linkedin.com/posts/pasan-perera99_mobileappdevelopment-flutterappdevelopment-activity-7020613861326151680-xrPo?utm_source=combined_share_message&utm_medium=member_desktop",
     },
 
@@ -74,7 +74,7 @@ const PortfolioPage = () => {
                                 <div className='flex flex-col gap-8 text-white'>
                                     <h1 className='text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl '>{item.title}</h1>
                                     <div className='relative w-80 h-40 md:w-96 md:h64 lg:w-[500px] lg:h-[350px] xl:w-[300px] xl:h-[360px]'>
-                                        <Image src={item.img} fill/>
+                                        <Image src={item.img} alt="test" fill/>
                                     </div>
                                     <p className='w-80 md:w-[500px] lg:text-lg xl:w-[600px]'>{item.desc}</p>
                                     <Link href={item.link} className='flex justify-end'>

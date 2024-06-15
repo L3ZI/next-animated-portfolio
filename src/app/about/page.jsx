@@ -18,7 +18,7 @@ const AboutPage = () => {
                     <div className=''>
                         <h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
                         <p className='text-lg'>
-                            I'm a dedicated cybersecurity undergraduate with a passion for safeguarding digital environments.
+                            I am a dedicated cybersecurity undergraduate with a passion for safeguarding digital environments.
                             Proficient in threat analysis and network security, also successfully completed internship at David Pieris Motor
                             Company (Pvt) Ltd. Currently honing skills in ethical hacking, aims to contribute to building robust and secure
                             online infrastructures.
